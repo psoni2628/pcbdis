@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7eaa1a2938f49899d2e1e139c51aa59",
+    "revision": "9ca84bf4a699624dabad9dce26423c4d",
     "url": "/vvamp/index.html"
   },
   {
-    "revision": "f1505eed8c1234dde81d",
+    "revision": "d74c7bb7ab2306a720e9",
     "url": "/vvamp/static/css/main.753892a1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vvamp/static/js/2.27505fc1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1505eed8c1234dde81d",
-    "url": "/vvamp/static/js/main.4e29c4a2.chunk.js"
+    "revision": "d74c7bb7ab2306a720e9",
+    "url": "/vvamp/static/js/main.823088e9.chunk.js"
   },
   {
     "revision": "1c04af76e12177078b20",
