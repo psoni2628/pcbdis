@@ -9,10 +9,10 @@ const FooterNav = ({ className, ...props }) => {
     <nav {...props} className={classes}>
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="#0">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
     </nav>

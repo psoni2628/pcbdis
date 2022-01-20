@@ -106,7 +106,7 @@ const Header = ({
                 <div className="header-nav-inner">
                   <ul className={classNames("list-reset", "header-nav-left")}>
                     <li>
-                      <Link to="#1" onClick={closeMenu}>
+                      <Link to="/" onClick={closeMenu}>
                         Home
                       </Link>
                     </li>
@@ -118,12 +118,12 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/about" onClick={closeMenu}>
                         About
                       </Link>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/team" onClick={closeMenu}>
                         The Team
                       </Link>
                     </li>
