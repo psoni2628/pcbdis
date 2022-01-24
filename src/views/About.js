@@ -1,9 +1,13 @@
 import React from "react";
 // import sections
-import Hero from "../components/sections/Hero";
+import AboutSection from "../components/sections/AboutSection";
 
 const About = () => {
-  return <></>;
+  return (
+    <>
+      <AboutSection className="illustration-section-01" />
+    </>
+  );
 };
 
 export default About;
