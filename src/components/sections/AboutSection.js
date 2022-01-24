@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
-import Image from "../elements/Image";
 
 const propTypes = {
   ...SectionProps.types,
@@ -21,15 +20,6 @@ const AboutSection = ({
   invertColor,
   ...props
 }) => {
-  const outerClasses = classNames(
-    "hero section center-content",
-    topOuterDivider && "has-top-divider",
-    bottomOuterDivider && "has-bottom-divider",
-    hasBgColor && "has-bg-color",
-    invertColor && "invert-color",
-    className
-  );
-
   const innerClasses = classNames(
     "hero-inner section-inner",
     topDivider && "has-top-divider",
