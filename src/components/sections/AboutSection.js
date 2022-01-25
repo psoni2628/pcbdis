@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
+import Image from "../elements/Image";
 
 const propTypes = {
   ...SectionProps.types,
@@ -30,10 +31,18 @@ const AboutSection = ({
     <section {...props} /*className={outerClasses}*/>
       <div className="container-sm">
         <div className={innerClasses}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div
+            className="reveal-from-bottom"
+            data-reveal-delay="200"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <h2>About the project.</h2>
           </div>
-          <div style={{ textAlign: "center" }}>
+          <div
+            className="reveal-from-bottom"
+            data-reveal-delay="400"
+            style={{ textAlign: "center" }}
+          >
             <p>
               In 2020, over 53.6 million tonnes of e-waste was produced and only
               17.4% of this was formally recycled.
@@ -46,6 +55,18 @@ const AboutSection = ({
               e-waste directly and indirectly caused by the lack of PCB
               recycling.
             </p>
+          </div>
+          <div
+            style={{ display: "flex", justifyContent: "center" }}
+            data-reveal-delay="800"
+            className="hero-figure reveal-from-bottom illustration-element-01"
+          >
+            <Image
+              className="has-shadow"
+              src={require("./../../assets/images/about-placeholder.jpg")}
+              alt="About"
+              width={600}
+            />
           </div>
         </div>
       </div>
