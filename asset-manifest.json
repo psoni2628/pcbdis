@@ -1,25 +1,40 @@
 {
   "files": {
     "main.css": "/static/css/main.534816e6.chunk.css",
-    "main.js": "/static/js/main.4a09ff19.chunk.js",
-    "main.js.map": "/static/js/main.4a09ff19.chunk.js.map",
+    "main.js": "/static/js/main.2a0603dd.chunk.js",
+    "main.js.map": "/static/js/main.2a0603dd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf9f4589.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf9f4589.js.map",
-    "static/js/2.ac4f2b04.chunk.js": "/static/js/2.ac4f2b04.chunk.js",
-    "static/js/2.ac4f2b04.chunk.js.map": "/static/js/2.ac4f2b04.chunk.js.map",
+    "static/js/2.7e593c9b.chunk.js": "/static/js/2.7e593c9b.chunk.js",
+    "static/js/2.7e593c9b.chunk.js.map": "/static/js/2.7e593c9b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ec11df59db5199a5ab336f36142a6edb.js": "/precache-manifest.ec11df59db5199a5ab336f36142a6edb.js",
+    "precache-manifest.2b7035fd2c7c63db40701bd4b7542cbf.js": "/precache-manifest.2b7035fd2c7c63db40701bd4b7542cbf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.534816e6.chunk.css.map": "/static/css/main.534816e6.chunk.css.map",
-    "static/js/2.ac4f2b04.chunk.js.LICENSE.txt": "/static/js/2.ac4f2b04.chunk.js.LICENSE.txt",
+    "static/js/2.7e593c9b.chunk.js.LICENSE.txt": "/static/js/2.7e593c9b.chunk.js.LICENSE.txt",
+    "static/media/Aggash_Sivasothy_Automated PCB Disassembler.jpg": "/static/media/Aggash_Sivasothy_Automated PCB Disassembler.fbf7000a.jpg",
+    "static/media/Matthew_Yuen_Automated PCB Disassembler.jpg": "/static/media/Matthew_Yuen_Automated PCB Disassembler.72b77141.jpg",
+    "static/media/Prabhdeep_Soni_Automated PCB Disassembler.jpg": "/static/media/Prabhdeep_Soni_Automated PCB Disassembler.c56e4759.jpg",
+    "static/media/Vishvam_Mazumdar_Automated PCB Disassembler.jpg": "/static/media/Vishvam_Mazumdar_Automated PCB Disassembler.6b1c5d90.jpg",
+    "static/media/Vishwa_Sheth_Automated PCB Disassembler.jpg": "/static/media/Vishwa_Sheth_Automated PCB Disassembler.31dce6e7.jpg",
     "static/media/about-placeholder.jpg": "/static/media/about-placeholder.00da2e47.jpg",
     "static/media/style.scss": "/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/features-split-image-01.png": "/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/features-split-image-02.png": "/static/media/features-split-image-02.3c569239.png",
+    "static/media/features-split-image-03.png": "/static/media/features-split-image-03.87e4d053.png",
+    "static/media/logo.svg": "/static/media/logo.2810a88b.svg",
     "static/media/video-placeholder.jpg": "/static/media/video-placeholder.a622fc5d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bf9f4589.js",
-    "static/js/2.ac4f2b04.chunk.js",
+    "static/js/2.7e593c9b.chunk.js",
     "static/css/main.534816e6.chunk.css",
-    "static/js/main.4a09ff19.chunk.js"
+    "static/js/main.2a0603dd.chunk.js"
   ]
 }
