@@ -22,7 +22,7 @@ const Member = ({ name, description, file, ...props }) => {
             //   width={500}
             style={{
               borderRadius: "50%",
-              width: 190,
+              width: 200,
               height: 200,
             }}
           />
