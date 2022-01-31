@@ -28,9 +28,13 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
             "site-footer-inner",
             topDivider && "has-top-divider"
           )}
+          style={{ display: "flex", justifyContent: "center" }}
         >
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
-            <FooterNav />
+            <p>
+              ©2022 Mechatronics Engineering Students at the University of
+              Waterloo
+            </p>
           </div>
         </div>
       </div>
