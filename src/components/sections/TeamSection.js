@@ -49,31 +49,33 @@ const TeamSection = ({
             >
               <h2>Meet the team.</h2>
             </div>
-            <Member
-              name="Prabhdeep Soni"
-              description={PrabDesc}
-              file="Prabhdeep_Soni_Automated PCB Disassembler.jpg"
-            />
-            <Member
-              name="Matthew Yuen"
-              description={MattDesc}
-              file="Matthew_Yuen_Automated PCB Disassembler.jpg"
-            />
-            <Member
-              name="Aggash Sivasothy"
-              description={AggashDesc}
-              file="Aggash_Sivasothy_Automated PCB Disassembler.jpg"
-            />
-            <Member
-              name="Vishvam Mazumdar"
-              description={VishvamDesc}
-              file="Vishvam_Mazumdar_Automated PCB Disassembler.jpg"
-            />
-            <Member
-              name="Vishwa Sheth"
-              description={VishwaDesc}
-              file="Vishwa_Sheth_Automated PCB Disassembler.jpg"
-            />
+            <div className="reveal-from-bottom" data-reveal-delay="200">
+              <Member
+                name="Prabhdeep Soni"
+                description={PrabDesc}
+                file="Prabhdeep_Soni_Automated PCB Disassembler.jpg"
+              />
+              <Member
+                name="Matthew Yuen"
+                description={MattDesc}
+                file="Matthew_Yuen_Automated PCB Disassembler.jpg"
+              />
+              <Member
+                name="Aggash Sivasothy"
+                description={AggashDesc}
+                file="Aggash_Sivasothy_Automated PCB Disassembler.jpg"
+              />
+              <Member
+                name="Vishvam Mazumdar"
+                description={VishvamDesc}
+                file="Vishvam_Mazumdar_Automated PCB Disassembler.jpg"
+              />
+              <Member
+                name="Vishwa Sheth"
+                description={VishwaDesc}
+                file="Vishwa_Sheth_Automated PCB Disassembler.jpg"
+              />
+            </div>
           </div>
         </div>
       </section>
