@@ -54,26 +54,31 @@ const TeamSection = ({
                 name="Prabhdeep Soni"
                 description={PrabDesc}
                 file="Prabhdeep_Soni_Automated PCB Disassembler.jpg"
+                linkedin="https://www.linkedin.com/in/prabhdeepsoni/"
               />
               <Member
                 name="Matthew Yuen"
                 description={MattDesc}
                 file="Matthew_Yuen_Automated PCB Disassembler.jpg"
+                linkedin="https://www.linkedin.com/in/matt-yuen/"
               />
               <Member
                 name="Aggash Sivasothy"
                 description={AggashDesc}
                 file="Aggash_Sivasothy_Automated PCB Disassembler.jpg"
+                linkedin="https://www.linkedin.com/in/aggashs/"
               />
               <Member
                 name="Vishvam Mazumdar"
                 description={VishvamDesc}
                 file="Vishvam_Mazumdar_Automated PCB Disassembler.jpg"
+                linkedin="https://www.linkedin.com/in/vishvam-mazumdar/"
               />
               <Member
                 name="Vishwa Sheth"
                 description={VishwaDesc}
                 file="Vishwa_Sheth_Automated PCB Disassembler.jpg"
+                linkedin="https://www.linkedin.com/in/vishwasheth03/"
               />
             </div>
           </div>

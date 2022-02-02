@@ -1,6 +1,8 @@
 import React from "react";
 import { SectionProps } from "../../../utils/SectionProps";
 import Image from "../../elements/Image";
+import ReactDOM from "react-dom";
+import { SocialIcon } from "react-social-icons";
 
 const propTypes = {
   ...SectionProps.types,
@@ -10,7 +12,7 @@ const defaultProps = {
   ...SectionProps.defaults,
 };
 
-const Member = ({ name, description, file, ...props }) => {
+const Member = ({ name, description, file, linkedin, ...props }) => {
   return (
     <>
       <section {...props}>
@@ -27,7 +29,21 @@ const Member = ({ name, description, file, ...props }) => {
             }}
           />
           <div style={{ marginLeft: "1rem" }}>
-            <h3>{name}</h3>
+            <div style={{ display: "flex" }}>
+              <h3>{name}</h3>
+              <a href={linkedin}>
+                <Image
+                  src={require("./../../../assets/images/linkedin-logo.png")}
+                  style={{
+                    height: 25,
+                    width: 25,
+                    marginTop: 44,
+                    marginLeft: 20,
+                  }}
+                />
+              </a>
+            </div>
+
             <p>{description}</p>
           </div>
         </div>
