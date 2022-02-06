@@ -1,8 +1,6 @@
 import React from "react";
 import { SectionProps } from "../../../utils/SectionProps";
 import Image from "../../elements/Image";
-import ReactDOM from "react-dom";
-import { SocialIcon } from "react-social-icons";
 
 const propTypes = {
   ...SectionProps.types,

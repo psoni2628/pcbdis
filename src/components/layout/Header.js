@@ -125,6 +125,11 @@ const Header = ({
                         The Team
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/blog" onClick={closeMenu}>
+                        Blog
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </nav>
