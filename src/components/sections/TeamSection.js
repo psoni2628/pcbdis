@@ -27,11 +27,16 @@ const TeamSection = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  const PrabDesc = "he's a cool dude.";
-  const MattDesc = "josie got a phat ath.";
-  const AggashDesc = "apple incoming, watch out tim.";
-  const VishvamDesc = "meh.";
-  const VishwaDesc = "he's the best.";
+  const PrabDesc =
+    "Prabhdeep is the Project Manager for this team. He is in charge of ensuring all deadlines are met, ensuring all submissions are of quality, and helping the team on any of the sub-teams as needed.";
+  const MattDesc =
+    "Matthew is the Software Lead for this team. This entails spearheading the code on which the 2-axis machine motors run as well as the sorting mechanism.";
+  const AggashDesc =
+    "Aggash takes charge as the Mechanical Lead for the team. This means making the CADs for each part to be machined, assembling the 2-axis mechanism, and helping build any other components.";
+  const VishvamDesc =
+    "Vishvam is the Electrical Lead. His job includes ensuring all electrical schematics are correct and implemented as is, and distributing enough power across the whole system.";
+  const VishwaDesc =
+    "Vishwa is the Integration Lead. This means he is in charge of bridging all sub-teams seamlessly, from mechanical to electrical to software. He also provides help on each sub-team as needed.";
 
   return (
     <>
