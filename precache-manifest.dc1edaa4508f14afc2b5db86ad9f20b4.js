@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0159b2ee7a4cfaf443ab139a6c4d171",
+    "revision": "5228cef7ebe38f847750638b61119825",
     "url": "/index.html"
   },
   {
-    "revision": "0437acb4348de34dcba6",
+    "revision": "870969bac6b218aeb5c7",
     "url": "/static/css/main.534816e6.chunk.css"
   },
   {
-    "revision": "f3ba2a4b70bb733dc6d8",
-    "url": "/static/js/2.4db1b775.chunk.js"
+    "revision": "abf2f9ae971cd3cefcc0",
+    "url": "/static/js/2.4bb2b823.chunk.js"
   },
   {
     "revision": "0def066106b5692cd5c135dcafc5767d",
-    "url": "/static/js/2.4db1b775.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4bb2b823.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0437acb4348de34dcba6",
-    "url": "/static/js/main.d8d567f0.chunk.js"
+    "revision": "870969bac6b218aeb5c7",
+    "url": "/static/js/main.5af8be44.chunk.js"
   },
   {
     "revision": "ea630fe81389fbceefbb",
@@ -46,6 +46,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "00da2e479007ad36ad7f1818b512178b",
     "url": "/static/media/about-placeholder.00da2e47.jpg"
+  },
+  {
+    "revision": "44bb26799f0f02bd7b550dec5c5894b8",
+    "url": "/static/media/cad-pic1-log1.44bb2679.png"
+  },
+  {
+    "revision": "7589bca7b11743ae97a46cf324f96c58",
+    "url": "/static/media/cad-pic2-log1.7589bca7.png"
+  },
+  {
+    "revision": "cad4e249bef29cd582c1a79a9f3c8e5b",
+    "url": "/static/media/component-list-log1.cad4e249.png"
+  },
+  {
+    "revision": "84a5a780bd58d450edd8c3ce56f5824c",
+    "url": "/static/media/component-pics-log1.84a5a780.png"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -100,7 +116,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.2810a88b.svg"
   },
   {
+    "revision": "537b0448b46292083aa03ad1bb944873",
+    "url": "/static/media/purchasing-log2.537b0448.png"
+  },
+  {
+    "revision": "7f36bb025d96e93909d0b4fff0eb1b53",
+    "url": "/static/media/team-log1.7f36bb02.png"
+  },
+  {
     "revision": "a622fc5dd8adcdd27ea42218385013b4",
     "url": "/static/media/video-placeholder.a622fc5d.jpg"
+  },
+  {
+    "revision": "d51160d81b3da2132a96a53b65ff6d78",
+    "url": "/static/media/website-log1.d51160d8.png"
   }
 ]);
