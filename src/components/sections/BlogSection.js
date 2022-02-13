@@ -94,12 +94,46 @@ const BlogSection = ({
                   Initially had issues with the machine jamming using the
                   provided motor drivers
                 </li>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginBottom: "25px",
+                  }}
+                >
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/a1QU-87WyUU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <li>
                   Swapped out the stepper motor drives to ones purchased on
                   Amazon, tightened the belts, and used a stepper motor library
                   found called “Accel Stepper” for Arduino - the machine began
                   actuating as expected
                 </li>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginBottom: "25px",
+                  }}
+                >
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/K-zlBo6YSsE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </ul>
               Hot Plate Heating Element
               <ul>
@@ -123,6 +157,23 @@ const BlogSection = ({
                     components can be freely moved
                   </li>
                 </ul>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginBottom: "25px",
+                  }}
+                >
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/CkEdmY-8mwg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </ul>
               Stencil
               <ul>
@@ -134,6 +185,23 @@ const BlogSection = ({
                       All components were sufficiently heated and the PCB board
                       could be slid away from the desoldered components
                     </li>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        marginBottom: "25px",
+                      }}
+                    >
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/16pmuelQQ5k"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                     <li>Residual solder dripped into the perforated tray</li>
                   </ul>
                 </li>
