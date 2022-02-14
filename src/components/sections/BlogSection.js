@@ -206,6 +206,30 @@ const BlogSection = ({
                   </ul>
                 </li>
               </ul>
+              Sorting mechanism rotary motor
+              <ul>
+                <li>
+                  3D printed the sorting mechanism tray and tested fit with the
+                  motor
+                </li>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    marginBottom: "25px",
+                  }}
+                >
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eT3jsoCC-Nw"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </ul>
               <h4>3 - Questions</h4>
               <ul>
                 <li>
