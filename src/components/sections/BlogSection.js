@@ -28,13 +28,16 @@ const BlogSection = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  const lastUpdated = "February 12, 2022";
+  const lastUpdated = "March 4, 2022";
 
   // Blog post 1
   const date1 = "Week 1-2 (January 3 - January 14, 2022)";
 
   // Blog post 2
   const date2 = "Week 3-4 (January 17 - January 28, 2022)";
+
+  //Blog post 3
+  const date3 = "Week 5-9 (February 1 - March 4, 2022)";
 
   return (
     <>
@@ -55,6 +58,186 @@ const BlogSection = ({
             <div className="reveal-from-bottom" data-reveal-delay="200">
               <h6>Updated: {lastUpdated}</h6>
             </div>
+            {/* BLOG POST 3 */}
+            <div className="reveal-from-bottom" data-reveal-delay="200">
+              <h3>{date3}</h3>
+              <h4>1 - Status Update</h4>
+              <h5>Purchasing</h5>
+              <ul>
+                <li>
+                  All components have been purchased / fabricated and integrated
+                  into the device
+                </li>
+              </ul>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <Image
+                  className="has-shadow"
+                  src={require("./../../assets/images/log3/purchasing-log3.png")}
+                  width={600}
+                />
+              </div>
+              <h4>2 - Demo</h4>
+              Heating Issues
+              <ul>
+                <li>
+                  One of the major roadblocks that the team encountered as we
+                  transitioned from testing the desoldering (heating element)
+                  directly on top of the hot plate into the larger frame was
+                  that we were not able to sustain the same temperatures
+                </li>
+                <li>
+                  This was likely being caused by heating leakage from the
+                  perforated platform to the steel platform
+                </li>
+              </ul>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <Image
+                  className="has-shadow"
+                  src={require("./../../assets/images/log3/demo-1.png")}
+                  width={600}
+                />
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <Image
+                  className="has-shadow"
+                  src={require("./../../assets/images/log3/demo-2.png")}
+                  width={600}
+                />
+              </div>
+              Insulated Perforated Platform
+              <ul>
+                <li>
+                  One solution that the group explored was switching to a
+                  smaller perforated platform and insulating it with a foam
+                  border
+                </li>
+                <li>
+                  This would prevent heat from leaking into the steel platform
+                  and the rest of the frame
+                </li>
+                <li>
+                  Unfortunately, the two ran into two major issues
+                  <ul>
+                    <li>
+                      The foam is extremely fragile and would not survive during
+                      any sort of transportation of the device
+                    </li>
+                    <li>
+                      The foam has a ridged surface which could cause parts to
+                      get stuck as they are actuated across its top surface in
+                      the stencil
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              Fastening Items
+              <ul>
+                <li>
+                  As a part of integrating components, one of the tasks is
+                  physically fastening them to the base of the device
+                </li>
+                <li>
+                  Initially the components were taped down in the locations
+                  shown below
+                </li>
+                <li>
+                  The tape will be replaced with bolts and zip ties as wire
+                  lengths are trimmed and locations are finalized upon
+                  successful operation of the entire system
+                </li>
+              </ul>
+              Component Dropping
+              <ul>
+                <li>
+                  An initial program was written in C++ for the Arduino upon
+                  determining locations of each of the component slots on the
+                  stencil
+                </li>
+                <li>
+                  These locations were used to drop pre-loaded components on the
+                  stencil through the drop slot
+                </li>
+                <li>
+                  Limit switches are used to define a “home position” for the
+                  stencil
+                </li>
+              </ul>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/8SGhOtnjwuc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              Component Sorting
+              <ul>
+                <li>
+                  A secondary program was created to identify positions of the
+                  rotary bin mechanisms that would line would the drop slot in
+                  the platform above
+                </li>
+                <li>
+                  In addition, a limit switch was used to mitigate a dependence
+                  on hard-coded positions and to counteract issues such as drift
+                  due to things such as play in the motor mount
+                </li>
+              </ul>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/etj6osoc3yY"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h4>3 - Questions</h4>
+              <ul>
+                <li>What is the dress code for the symposium?</li>
+                <li>
+                  What is the schedule for the symposium? Do all team members
+                  have to be present at all times?
+                </li>
+                <li>How many rounds of judging will there be?</li>
+              </ul>
+            </div>
+            {/* BLOG POST 2 */}
             <div className="reveal-from-bottom" data-reveal-delay="200">
               <h3>{date2}</h3>
               <h4>1 - Status Update</h4>
@@ -239,6 +422,7 @@ const BlogSection = ({
                 </li>
               </ul>
             </div>
+            {/* BLOG POST 1 */}
             <div className="reveal-from-bottom" data-reveal-delay="200">
               <h3>{date1}</h3>
               <h4>1 - Introduction</h4>
