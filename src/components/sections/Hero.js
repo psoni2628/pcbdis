@@ -3,6 +3,9 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
+import { Document, Page } from "react-pdf";
+import poster from "../../assets/files/Poster_Layout_Finalized.pdf";
+import "./styles.css";
 
 const propTypes = {
   ...SectionProps.types,
@@ -49,6 +52,11 @@ const Hero = ({
     bottomDivider && "has-bottom-divider"
   );
 
+  // const style = {
+  //   width: "500px",
+  //   height: "500px",
+  // };
+
   return (
     <section {...props} className={outerClasses}>
       <div className="container-sm">
@@ -90,11 +98,16 @@ const Hero = ({
               />
             </a>
           </div>
+          {/* <div>
+            <Document file={poster} options={{ workerSrc: "/pdf.worker.js" }}>
+              <Page pageNumber={1} />
+            </Document>
+          </div> */}
           <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://www.youtube.com/embed/A5YxwFgRRCI"
+            video="https://www.youtube.com/embed/orps_oXp7mw"
             videoTag="iframe"
           />
         </div>

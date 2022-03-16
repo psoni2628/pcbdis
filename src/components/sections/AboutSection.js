@@ -65,7 +65,22 @@ const AboutSection = ({
               className="has-shadow"
               src={require("./../../assets/images/log1/cad-pic2-log1.png")}
               alt="About"
-              width={600}
+              width="100%"
+            />
+          </div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "50px",
+            }}
+            data-reveal-delay="400"
+            className="hero-figure reveal-from-bottom illustration-element-01"
+          >
+            <Image
+              className="has-shadow"
+              src={require("./../../assets/images/poster.png")}
+              width="100%"
             />
           </div>
         </div>
