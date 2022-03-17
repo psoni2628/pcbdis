@@ -3,6 +3,9 @@ import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Image from "../elements/Image";
 import Modal from "../elements/Modal";
+import { Document, Page } from "react-pdf";
+import poster from "../../assets/files/Poster_Layout_Finalized.pdf";
+import "./styles.css";
 
 const propTypes = {
   ...SectionProps.types,
