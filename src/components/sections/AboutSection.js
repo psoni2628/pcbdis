@@ -63,7 +63,7 @@ const AboutSection = ({
           >
             <Image
               className="has-shadow"
-              src={require("./../../assets/images/log1/cad-pic2-log1.png")}
+              src={require("./../../assets/images/pcbdis_pic.jpg")}
               alt="About"
               width="100%"
             />
