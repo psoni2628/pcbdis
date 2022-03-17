@@ -28,7 +28,7 @@ const BlogSection = ({
     bottomDivider && "has-bottom-divider"
   );
 
-  const lastUpdated = "March 4, 2022";
+  const lastUpdated = "March 18, 2022";
 
   // Blog post 1
   const date1 = "Week 1-2 (January 3 - January 14, 2022)";
@@ -36,8 +36,11 @@ const BlogSection = ({
   // Blog post 2
   const date2 = "Week 3-4 (January 17 - January 28, 2022)";
 
-  //Blog post 3
+  // Blog post 3
   const date3 = "Week 5-9 (February 1 - March 4, 2022)";
+
+  // Blog post 4
+  const date4 = "Week 10-11 (March 7 - March 18, 2022)";
 
   return (
     <>
@@ -57,6 +60,33 @@ const BlogSection = ({
             </div>
             <div className="reveal-from-bottom" data-reveal-delay="200">
               <h6>Updated: {lastUpdated}</h6>
+            </div>
+            {/* BLOG POST 4 */}
+            <div className="reveal-from-bottom" data-reveal-delay="200">
+              <h3>{date4}</h3>
+              <h4>1 - Status Update</h4>
+              These past two weeks have been dedicated to preparing for the
+              final demo, as well as the symposium. All components have been
+              purchased or fabricated, now it is about perfecting the software
+              and hardware to work in harmony.
+              <h4>2 - Final Demo</h4>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  marginBottom: "25px",
+                }}
+              >
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/lE7puqEFnHQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
             {/* BLOG POST 3 */}
             <div className="reveal-from-bottom" data-reveal-delay="200">
