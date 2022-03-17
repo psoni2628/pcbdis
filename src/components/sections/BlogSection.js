@@ -257,15 +257,6 @@ const BlogSection = ({
                   allowfullscreen
                 ></iframe>
               </div>
-              <h4>3 - Questions</h4>
-              <ul>
-                <li>What is the dress code for the symposium?</li>
-                <li>
-                  What is the schedule for the symposium? Do all team members
-                  have to be present at all times?
-                </li>
-                <li>How many rounds of judging will there be?</li>
-              </ul>
             </div>
             {/* BLOG POST 2 */}
             <div className="reveal-from-bottom" data-reveal-delay="200">
@@ -443,14 +434,6 @@ const BlogSection = ({
                   ></iframe>
                 </div>
               </ul>
-              <h4>3 - Questions</h4>
-              <ul>
-                <li>
-                  Can the demo be a pre-recorded video? It takes a while for the
-                  hot plate to heat up and live streaming via our laptop's
-                  webcam can be difficult.
-                </li>
-              </ul>
             </div>
             {/* BLOG POST 1 */}
             <div className="reveal-from-bottom" data-reveal-delay="200">
@@ -565,47 +548,6 @@ const BlogSection = ({
                   width={600}
                 />
               </div>
-              <h4>3 - Questions</h4>
-              <ul>
-                <li>
-                  Feasibility of assembling during COVID
-                  <ul>
-                    <li>
-                      Vishvam is currently COVID-positive and the team is
-                      scattered across the GTA
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Verifying Level of Functionality
-                  <ul>
-                    <li>
-                      This being an initial prototype, there is some concerns
-                      about all of the features being functioning as anticipated
-                      <ul>
-                        <li>
-                          i.e. the heating element may take longer than
-                          anticipated
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Safety
-                  <ul>
-                    <li>
-                      Implications of using the heating element
-                      <ul>
-                        <li>
-                          Do we need special guarding, would this alone
-                          necessitate CSA inspection
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
