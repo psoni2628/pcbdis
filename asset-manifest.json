@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddc81b2c.chunk.css",
-    "main.js": "/static/js/main.e3e8d2aa.chunk.js",
-    "main.js.map": "/static/js/main.e3e8d2aa.chunk.js.map",
+    "main.css": "/static/css/main.534816e6.chunk.css",
+    "main.js": "/static/js/main.9b6891fa.chunk.js",
+    "main.js.map": "/static/js/main.9b6891fa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bf9f4589.js",
     "runtime-main.js.map": "/static/js/runtime-main.bf9f4589.js.map",
-    "static/js/2.7c0fbc65.chunk.js": "/static/js/2.7c0fbc65.chunk.js",
-    "static/js/2.7c0fbc65.chunk.js.map": "/static/js/2.7c0fbc65.chunk.js.map",
+    "static/js/2.a8cecaa5.chunk.js": "/static/js/2.a8cecaa5.chunk.js",
+    "static/js/2.a8cecaa5.chunk.js.map": "/static/js/2.a8cecaa5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7311c89213ff53cacb559b3d6977c831.js": "/precache-manifest.7311c89213ff53cacb559b3d6977c831.js",
+    "precache-manifest.e73baf85e643ae4b53839cf1c697b3ff.js": "/precache-manifest.e73baf85e643ae4b53839cf1c697b3ff.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ddc81b2c.chunk.css.map": "/static/css/main.ddc81b2c.chunk.css.map",
-    "static/js/2.7c0fbc65.chunk.js.LICENSE.txt": "/static/js/2.7c0fbc65.chunk.js.LICENSE.txt",
+    "static/css/main.534816e6.chunk.css.map": "/static/css/main.534816e6.chunk.css.map",
+    "static/js/2.a8cecaa5.chunk.js.LICENSE.txt": "/static/js/2.a8cecaa5.chunk.js.LICENSE.txt",
     "static/media/Aggash_Sivasothy_Automated PCB Disassembler.jpg": "/static/media/Aggash_Sivasothy_Automated PCB Disassembler.fbf7000a.jpg",
     "static/media/Matthew_Yuen_Automated PCB Disassembler.jpg": "/static/media/Matthew_Yuen_Automated PCB Disassembler.2636ba5e.jpg",
-    "static/media/Poster_Layout_Finalized.pdf": "/static/media/Poster_Layout_Finalized.ce283a2b.pdf",
     "static/media/Prabhdeep_Soni_Automated PCB Disassembler.jpg": "/static/media/Prabhdeep_Soni_Automated PCB Disassembler.7b65aa8d.jpg",
     "static/media/Vishvam_Mazumdar_Automated PCB Disassembler.jpg": "/static/media/Vishvam_Mazumdar_Automated PCB Disassembler.9c35d491.jpg",
     "static/media/Vishwa_Sheth_Automated PCB Disassembler.jpg": "/static/media/Vishwa_Sheth_Automated PCB Disassembler.118a7634.jpg",
@@ -49,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bf9f4589.js",
-    "static/js/2.7c0fbc65.chunk.js",
-    "static/css/main.ddc81b2c.chunk.css",
-    "static/js/main.e3e8d2aa.chunk.js"
+    "static/js/2.a8cecaa5.chunk.js",
+    "static/css/main.534816e6.chunk.css",
+    "static/js/main.9b6891fa.chunk.js"
   ]
 }
